@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this is taglib deployment Descriptor  -->
+  <taglib>
+  <tlib-version>1.2</tlib-version>
+  <jsp-version>1.2</jsp-version>
+  <short-name/>
+  <uri>http://jlcindia.com/tags</uri>
+  <tag>
+  <name>error</name>
+  <tag-class>com.tuto.pract.book.shop.tags.ErrorTag</tag-class>
+  <body-content>empty</body-content>
+  <attribute>
+  <name>property</name>
+  <required>true</required>
+  </attribute>
+  </tag>
+  
+  <tag>
+  <name>validateSession</name>
+  <tag-class>com.tuto.pract.book.shop.tags.ValidateSessionTag</tag-class>
+  <body-content>empty</body-content>
+  </tag>
+  
+  <tag>
+  <name>displayUserPassword</name>
+  <tag-class>com.tuto.pract.book.shop.tags.DisplayUserPasswordTag</tag-class>
+  <body-content>empty</body-content>
+  </tag>
+  
+  <tag>
+  <name>showSortField</name>
+  <tag-class>com.tuto.pract.book.shop.tags.ShowSortFieldTag</tag-class>
+  <body-content>empty</body-content>
+  </tag>
+  
+  <tag>
+  <name>displayUserPassword</name>
+  <tag-class>com.tuto.pract.book.shop.tags.ShowSortOrderTag</tag-class>
+  <body-content>empty</body-content>
+  </tag>
+  
+  <tag>
+  <name>showEditionTag</name>
+  <tag-class>com.tuto.pract.book.shop.tags.ShowEditionTag</tag-class>
+  <body-content>empty</body-content>
+  </tag>
+  
+  <tag>
+  <name>removeSearchInfoFromSessionTag</name>
+  <tag-class>com.tuto.pract.book.shop.tags.RemoveSearchInfoFromSessionTag</tag-class>
+  <body-content>empty</body-content>
+  </tag>
+  
+  <tag>
+  <name>bookAmountTag</name>
+  <tag-class>com.tuto.pract.book.shop.tags.BookAmountTag</tag-class>
+  <body-content>empty</body-content>
+  <attribute>
+  <name>value</name>
+  <required>true</required>
+  </attribute>
+  <attribute>
+  <name>quantity</name>
+  <required>true</required>
+  <rtexprvalue>true</rtexprvalue>
+  </attribute>
+  </tag>
+
+  <tag>
+  <name>displayTotalAmount</name>
+  <tag-class>com.tuto.pract.book.shop.tags.DisplayTotalAmountTag</tag-class>
+  <body-content>empty</body-content>
+  </tag>
+  </taglib> 
+
